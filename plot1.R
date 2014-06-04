@@ -27,6 +27,5 @@ dev.copy(png,"plot1.png", width=480, height=480)
 # turn off device
 dev.off()
 
-dev.set(1) # reset to default
 
 

@@ -15,7 +15,7 @@ power2 <- subset(power, Date >= "2007-02-01" & Date <= "2007-02-02")
 setwd("C:\\Users\\srobin\\Documents\\GitHub\\ExData_Plotting1")
 
 # create a histogram  divided Global_active_power by 500 
-hist(as.numeric(power2$Global_active_power)/500, 
+hist(as.numeric(as.character(power2$Global_active_power)), 
      xlab="Global Active Power (Kilowatts)", 
      ylab="Frequency",
      main="Global Active Power", 
